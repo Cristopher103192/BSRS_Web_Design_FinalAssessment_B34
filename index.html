@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Font Icons CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Style_Design/Main-style.css">
+    <title>Movie Marathon</title>
+</head>
+
+<body>
+    <!-- Header Logo and Menu Style -->
+
+    <div class="navbar-fixed nav_container">
+        <nav class="nav-wrapper navbar-fixed  menu_container">
+            <!-- Register and Login Style -->
+            <div class="row valign-wrapper right">
+                <ul class="right menu_button_container_reg">
+                    <li><a class="waves-effect btn_reg" href="#!"><i
+                                class="small material-icons left reg_menu_icon">person</i>register</a></li>
+                    <li><a class="waves-effect btn_reg" href="#!"><i
+                                class="small material-icons left reg_menu_icon">lock</i>Login</a></li>
+                </ul>
+            </div>
+            <!-- Logo Style -->
+            <nav class="row valign-wrapper center hide-on-med-and-down logo_Container">
+                <img class="responsive-img img_logo" src="Design/OIP.jpg" alt="">
+
+                <span class="logo hide-on-med-and-down">MOVIE
+                    MARATHON</span>
+            </nav>
+            <!-- Menu Button Style -->
+            <div class="right hide-on-med-and-down">
+                <ul class="menu_button_container">
+                    <li class="li_btn"><a class="btn" href="index.html"><i
+                                class="small material-icons left menu_icon">home</i>HOME</a>
+                    </li>
+                    <li class="li_btn"><a class="btn" href="Movies.html"><i
+                                class="small material-icons left menu_icon">camera_roll</i>MOVIES</a>
+                    </li>
+                    <li class="li_btn"><a class="btn" href="About.html"><i
+                                class="small material-icons left menu_icon">perm_identity</i>ABOUT</a>
+                    </li>
+                    <li class="li_btn"><a class="btn" href="Contact.html"><i
+                                class="small material-icons left menu_icon">local_phone</i>CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Sidevar Trigger -->
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"
+                    style="font-size: 5vw;">menu</i></a>
+        </nav>
+    </div>
+
+    <!-- Sidevar Logo and Menu Style -->
+    <div id="slide-out" class="sidenav">
+        <img class="circle" src="Design/OIP.jpg" style="height: 100px; width: 100px; margin-left: 80px;"><br>
+        <span class="side_name_logo">MOVIE MARATHON</span>
+        <div class="divider"></div>
+        <div class="side_menu_container ">
+            <ul>
+                <li><span id="home" class="side_btn_menu"><a class="btn_side" href=""><i
+                                class="small material-icons left menu_icon"
+                                style="padding-top: 3.8%;">home</i>HOME</a></span>
+                </li>
+                <li><span class="side_btn_menu"><a class="btn_side" href="Movies.html"><i
+                                class="small material-icons left menu_icon"
+                                style="padding-top: 3.8%;">camera_roll</i>MOVIES</a></span>
+                </li>
+                <li><span class="side_btn_menu"><a class="btn_side" href="About.html"><i
+                                class="small material-icons left menu_icon"
+                                style="padding-top: 3.8%;">perm_identity</i>ABOUT</a></span>
+                </li>
+                <li><span class="side_btn_menu"><a class="btn_side" href="Contact.html"><i
+                                class="small material-icons left menu_icon"
+                                style="padding-top: 3.8%;">local_phone</i>CONTACT</a></span>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <br><br><br> <br><br><br><br>
+    <!-- Header Slider Style -->
+    <div class="slider">
+
+        <ul class="slides center">
+
+            <!-- Slider Movie FRONT -->
+            <li>
+                <img class="responsive-img img_slider_bg" src="Design/Main_design/BGScreen.jpg" alt="">
+                <div class="caption center card-panel_slide">
+                    <div class="col s12 m6 l3 card-container title-container" style="width: fit-content;">
+                        <h1 class="screen_movie_title">UPCOMING MOVIES 2025<br>
+                        </h1>
+                    </div>
+                </div>
+            </li>
+            <!-- Slider Movie 1 -->
+            <li>
+                <img class="responsive-img img_slider_bg" src="Design/Main_design/jurasicBG.jpg" alt="">
+
+                <div class="caption center card-panel_slide">
+
+                    <div class="row">
+
+                        <div class="col s12 m8 l3 xl4  card-container">
+                            <img class="responsive-img img_movie right" src="Design/Main_design/Jurasic1.png" alt=""
+                                style="height: 28rem; width: 25rem;">
+                        </div>
+                        <div class="col s12 m6 l3 card-container title-container" style="width: fit-content;">
+                            <br>
+                            <h1 class="flow-text movie_title">Jurassic World Extinction<br>
+                                <h6 class="date_relase">Released Date: JUNE 20,2025</h6>
+                            </h1><br>
+                            <a href="#movie1" class="modal-trigger waves-effect waves-light btn-large btn_watch left"><i
+                                    class="material-icons left">play_circle_filled</i><span>Watch Trailer</span></a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </li>
+
+            <!-- Slider Movie 2 -->
+            <li>
+                <img class="responsive-img img_slider_bg" src="Design/Main_design/supermanbg.png" alt="">
+
+                <div class="caption center card-panel_slide">
+
+                    <div class="row">
+                        <div class="col s12 m8 l3 xl4  card-container">
+                            <img class="responsive-img img_movie right" src="Design/Main_design/Superman1.jpeg" alt=""
+                                style="height: 28rem; width: 20rem;">
+                        </div>
+                        <div class="col s12 m6 l3 card-container title-container" style="width: fit-content;">
+                            <br>
+                            <h1 class="flow-text movie_title">Superman Legacy<br>
+                                <h6 class="date_relase">Released Date: JULY 11,2025</h6>
+                            </h1><br>
+                            <a href="#movie2" class="modal-trigger waves-effect waves-light btn-large btn_watch left"><i
+                                    class="material-icons left">play_circle_filled</i><span>Watch Trailer</span></a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </li>
+
+            <!-- Slider Movie 3 -->
+            <li>
+                <img class="responsive-img img_slider_bg" src="Design/Main_design/fantasticfourbg.png" alt="">
+
+                <div class="caption center card-panel_slide">
+
+                    <div class="row">
+                        <div class="col s12 m8 l3 xl4  card-container">
+                            <img class="responsive-img img_movie right" src="Design/Main_design/fantasticfour2.png"
+                                alt="" style="height: 28rem; width: 20rem;">
+                        </div>
+                        <div class="col s12 m6 l3 card-container title-container" style="width: fit-content;">
+                            <br>
+                            <h1 class="flow-text movie_title">Fantastic Four:First Steps<br>
+                                <h6 class="date_relase">Released Date: JULY 25,2025</h6>
+                            </h1><br>
+                            <a href="#movie3" class="modal-trigger waves-effect waves-light btn-large btn_watch left"><i
+                                    class="material-icons left">play_circle_filled</i><span>Watch Trailer</span></a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </li>
+
+            <!-- Slider Movie 4 -->
+            <li>
+                <img class="responsive-img img_slider_bg" src="Design/Main_design/thunderboltBG.png" alt="">
+
+                <div class="caption center card-panel_slide">
+
+                    <div class="row">
+                        <div class="col s12 m8 l3 xl4  card-container">
+                            <img class="responsive-img img_movie right" src="Design/Main_design/thunderbolt1.jpg" alt=""
+                                style="height: 28rem; width: 20rem;">
+                        </div>
+                        <div class="col s12 m6 l3 card-container title-container" style="width: fit-content;">
+                            <br>
+                            <h1 class="flow-text movie_title">thunderbolts<br>
+                                <h6 class="date_relase">Released Date: MAY 02,2025</h6>
+                            </h1><br>
+                            <a href="#movie4" class="modal-trigger waves-effect waves-light btn-large btn_watch left"><i
+                                    class="material-icons left">play_circle_filled</i><span>Watch Trailer</span></a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    <!-- Modal Movie Trailer Show-->
+    <div>
+        <!-- Modal Movie Trailer 1 -->
+        <div id="movie1" class="modal movie_modal">
+            <div class="modal-content center">
+                <nav class="row valign-wrapper transparent center ">
+
+                    <div class="col s11">
+                        <h1 class="modal_head_title">Jurassic World Rebirth</h1>
+                    </div>
+                    <div class="col s2">
+                        <a href="#!" class="modal-close btn-flat white-text modal-close_btn"><i
+                                class="material-icons left modal_icon">close</i></a>
+                    </div>
+
+
+                </nav>
+                <video class="vid_trailer" controls>
+                    <source src="Design/Main_design/jurasic.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+
+        </div>
+
+        <!-- Modal Movie Trailer 2 -->
+        <div id="movie2" class="modal movie_modal">
+            <div class="modal-content center">
+                <nav class="row valign-wrapper transparent center ">
+                    <div class="col s11">
+                        <h1 class="modal_head_title">Superman Legacy</h1>
+                    </div>
+                    <div class="col s2">
+                        <a href="#!" class="modal-close btn-flat white-text modal-close_btn"><i
+                                class="material-icons left modal_icon">close</i></a>
+                    </div>
+                </nav>
+                <video class="vid_trailer" controls>
+                    <source src="Design/Main_design/superman.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+
+        </div>
+
+        <!-- Modal Movie Trailer 3 -->
+        <div id="movie3" class="modal movie_modal">
+            <div class="modal-content center">
+                <nav class="row valign-wrapper transparent center ">
+                    <div class="col s11">
+                        <h1 class="modal_head_title">Fantastic Four:First Steps</h1>
+                    </div>
+                    <div class="col s2">
+                        <a href="#!" class="modal-close btn-flat white-text modal-close_btn"><i
+                                class="material-icons left modal_icon">close</i></a>
+                    </div>
+                </nav>
+                <video class="vid_trailer" controls>
+                    <source src="Design/Main_design/fantasticfour.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+
+        </div>
+
+        <!-- Modal Movie Trailer 4 -->
+        <div id="movie4" class="modal movie_modal">
+            <div class="modal-content center">
+                <nav class="row valign-wrapper transparent center ">
+                    <div class="col s11">
+                        <h1 class="modal_head_title">thunderbolts</h1>
+                    </div>
+                    <div class="col s2">
+                        <a href="#!" class="modal-close btn-flat white-text modal-close_btn"><i
+                                class="material-icons left modal_icon">close</i></a>
+                    </div>
+                </nav>
+                <video class="vid_trailer" controls>
+                    <source src="Design/Main_design/thunderbolt.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- Slider Body Container-->
+    <div class="parallax-container body_container">
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Slideshow Explanation for Movie 1 -->
+            <div class="mySlides fade row valign-wrapper slider_container">
+                <div class="row">
+                    <!-- cast-->
+                    <div class="col s12 m5 l6 xl3 center cast_container">
+                        <img class="body_img responsive-img" src="Design/Main_design/Jurasic1.png" alt="">
+                        <a href="#movie1" class=" modal-trigger waves-effect waves-light btn-large"><i
+                                class="material-icons left">play_circle_filled</i>Watch Trailer</a>
+
+                        <!-----Cast---->
+                        <p id="text_color-cast">
+                            *Directed by <br><br>
+                            Gareth Edwards <br><br>
+                            *Screenplay by<br><br>
+                            David Koepp<br><br>
+                            *Produced by <br><br>
+                            Frank Marshall<br>
+                            Patrick Crowley<br><br>
+                            *Starring<br><br>
+                            Scarlett Johansson<br>
+                            Mahershala Ali<br>
+                            Jonathan Bailey<br>
+                            Rupert Friend<br>
+                            Manuel Garcia-Rulfo<br>
+                            Luna Blaise<br>
+                            David Iacono<br>
+                            Ed Skrein<br><br>
+                            *Cinematography<br><br>
+                            John Mathieson<br><br>
+                            *Production
+                            companies<br><br>
+                            Amblin Entertainment<br>
+                            The Kennedy/Marshall Company<br><br>
+                            *Distributed by<br><br>
+                            Universal Pictures
+                        <div class="divider"></div>
+                        </p>
+
+                        <p id="text_color" class="yellow-text">
+                            Jurassic World Rebirth is scheduled to be released in the United States by Universal
+                            Pictures on July 2, 2025. <br>
+
+                        </p>
+                    </div>
+                    <!-- explain-->
+                    <div class="col s12 m5 l6 xl8 center cast_container">
+                        <h1 id="text_color-explain" style="font-size: 60px;">Jurassic World Rebirth</h1>
+                        <div class="divider"></div>
+                        <h3 id="text_color-explain">Synopsis</h3>
+                        <p id="text_color-explain" class="movie_explain">
+                            "A new era is born. <br><br>
+                            Next summer, three years after the Jurassic World trilogy concluded
+                            with each film surpassing $1 billion at the global box office, the
+                            enduring Jurassic series evolves in an ingenious new direction with
+                            Jurassic World Rebirth. <br><br>
+
+                            Anchored by iconic action superstar Scarlett Johansson, breakthrough
+                            talent Jonathan Bailey and two-time Oscar® winner Mahershala Ali, this
+                            action-packed new chapter sees an intrepid team racing to secure DNA
+                            samples from the three most colossal creatures across land, sea and air.
+                            Also starring acclaimed international stars Rupert Friend and Manuel
+                            Garcia-Rulfo, the film is directed by dynamic visualist Gareth Edwards
+                            (Rogue One: A Star Wars Story) from a script by original Jurassic Park
+                            screenwriter David Koepp.<br><br>
+
+                            Five years after the events of Jurassic World Dominion, the planet’s
+                            ecology has proven largely inhospitable to dinosaurs. Those remaining
+                            exist in isolated equatorial environments with climates resembling the
+                            one in which they once thrived. The three most colossal creatures within
+                            that tropical biosphere hold the key to a drug that will bring miraculous
+                            life-saving benefits to humankind.<br><br>
+
+                            Academy Award® nominee Johansson plays skilled covert operations expert
+                            Zora Bennett, contracted to lead a skilled team on a top-secret mission
+                            to secure genetic material from the world’s three most massive dinosaurs.
+                            When Zora’s operation intersects with a civilian family whose boating
+                            expedition was capsized by marauding aquatic dinos, they all find themselves
+                            stranded on an island where they come face-to-face with a sinister, shocking
+                            discovery that’s been hidden from the world for decades.<br><br>
+
+                            Ali is Duncan Kincaid, Zora’s most trusted team leader; Emmy nominee and
+                            Olivier Award winner Jonathan Bailey (Wicked, Bridgerton) plays paleontologist
+                            Dr. Henry Loomis; Emmy nominee Rupert Friend (Homeland, Obi-Wan Kenobi)
+                            appears as Big Pharma representative Martin Krebs and Manuel Garcia-Rulfo
+                            (The Lincoln Lawyer, Murder on the Orient Express) plays Reuben Delgado,
+                            the father of the shipwrecked civilian family.<br><br>
+
+                            The cast includes Luna Blaise (Manifest), David Iacono (The Summer I Turned Pretty)
+                            and Audrina Miranda (Lopez vs. Lopez) as Reuben’s family. The film also features,
+                            as members of Zora and Krebs’ crews, Philippine Velge (Station Eleven),
+                            Bechir Sylvain (BMF) and Ed Skrein (Deadpool).<br><br>
+
+                            Jurassic World Rebirth is directed by BAFTA winner Edwards from a script by
+                            Koepp (War of the Worlds), based on characters created by Michael Crichton.
+                            The film is produced by Oscar® nominee Frank Marshall and Patrick Crowley,
+                            both longtime Jurassic franchise producers and of this summer’s blockbuster,
+                            Twisters. The film is executive produced by Steven Spielberg, Denis L. Stewart
+                            and Jim Spencer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slideshow Explanation for Movie 2 -->
+            <div class="mySlides fade row valign-wrapper slider_container">
+                <div class="row">
+                    <!-- cast-->
+                    <div class="col s12 m5 l6 xl3 center cast_container">
+                        <img class="body_img responsive-img" src="Design/Main_design/Superman1.jpeg" alt="">
+                        <a href="#movie2" class=" modal-trigger waves-effect waves-light btn-large"><i
+                                class="material-icons left">play_circle_filled</i>Watch Trailer</a>
+
+                        <!-----Cast---->
+                        <p id="text_color-cast">
+                            *Directed by <br><br>
+                            James Gunn <br><br>
+                            *Written by <br><br>
+                            James Gunn <br><br>
+                            *Based on <br><br>
+                            Characters from DC
+                            *Produced by <br><br>
+                            Peter Safran<br><br>
+                            *Starring <br><br>
+                            David Corenswet<br>
+                            Rachel Brosnahan<br>
+                            Isabela Merced<br>
+                            Edi Gathegi<br>
+                            Nathan Fillion<br>
+                            Anthony Carrigan<br>
+                            María Gabriela de Faría<br>
+                            Sara Sampaio<br>
+                            Skyler Gisondo<br>
+                            Nicholas Hoult<br>
+                            Terence Rosemore<br>
+                            Wendell Pierce<br>
+                            Pruitt Taylor Vince<br>
+                            Neva Howell<br>
+                            Beck Bennett<br>
+                            Mikaela Hoover<br>
+                            Christopher McDonald<br><br>
+                            *Cinematography<br><br>
+                            Henry Braham<br><br>
+                            *Edited by <br><br>
+                            Jason Ballantine<br>
+                            William Hoy <br><br>
+                            *Music by <br><br>
+                            John Murphy<br><br>
+                            *Production
+                            company <br><br>
+                            DC Studios<br><br>
+                            *Distributed by<br><br>
+                            Warner Bros. Pictures
+                        <div class="divider"></div>
+                        </p>
+
+                        <p id="text_color" class="yellow-text">
+                            Superman: Legacy is scheduled to be released theatrically in the United States on July 11,
+                            2025. <br>
+
+                        </p>
+                    </div>
+                    <!-- explain-->
+                    <div class="col s12 m5 l6 xl8 center cast_container">
+                        <h1 id="text_color-explain" style="font-size: 60px;">Superman Legacy</h1>
+                        <div class="divider"></div>
+                        <h3 id="text_color-explain">Synopsis</h3>
+                        <p id="text_color-explain" class="movie_explain">
+                            Superman: Legacy, which is one of 2025's most anticipated new movies,
+                            returns to the legendary superhero's roots in Smallville, Kansas,
+                            though Gunn has previously confirmed it won't be another origins story.
+
+                            Former Superman star Henry Cavill won't be donning the tights this time around, however,
+                            with the aforementioned Corenswet, a relatively unknown name in blockbuster land, securing
+                            the coveted role. Corenswet impressed in House of Cards in 2018, but really rose to
+                            prominence in The Politician and Hollywood on Netflix. Based on an image doing the rounds
+                            online (thanks to DCEULeaks for the catch), it seems Corenswet is hitting the gym hard to
+                            get into superhero shape.<br><br>
+
+                            As mentioned, Superman: Legacy will be written and directed by Gunn (Guardians of the
+                            Galaxy, The Suicide Squad). According to a separate Deadline report from March, Gunn, fellow
+                            studio co-head Peter Safran, and Warner Bros. Discovery CEO David Zaslav were all keen to
+                            bring Superman back to the big screen, with the Man of Steel's first standalone flick in
+                            years set to kick off the new-look DCU's first slate of movies.<br><br>
+
+                            Before that, however, an animated Max-exclusive series called Creature Commandos will mark
+                            the official beginning of the DCU. It's expected to arrive on our screens sometime in
+                            2024.<br><br>
+
+                            While the new DC universe is replacing the existing DC Extended Universe (DCEU) – Deadline
+                            calls it a hand-off "between the Snyder-verse and the new Safran/Gunn-verse" – the same
+                            outlet suggests many familiar faces, such as Jason Momoa, may be part of the DCU, albeit in
+                            different roles. Some actors, including John Cena and Xolo Mariduena, though, will be back
+                            as the same characters from the soon-to-be-defunct DCEU (read our guide on how to watch the
+                            DC movies in order), meaning there might some confusing overlap between the two
+                            franchies.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slideshow Explanation for Movie 3 -->
+            <div class="mySlides fade row valign-wrapper slider_container">
+                <div class="row">
+                    <!-- cast-->
+                    <div class="col s12 m5 l6 xl3 center cast_container">
+                        <img class="body_img responsive-img" src="Design/Main_design/fantasticfour2.png" alt="">
+                        <a href="#movie3" class=" modal-trigger waves-effect waves-light btn-large"><i
+                                class="material-icons left">play_circle_filled</i>Watch Trailer</a>
+
+                        <!-----Cast---->
+                        <p id="text_color-cast">
+                            *Directed by <br><br>
+                            Matt Shakman <br><br>
+                            *Written by<br><br>
+                            Jeff Kaplan<br>
+                            Ian Springer<br>
+                            Josh Friedman<br>
+                            Cameron Squires<br>
+                            Eric Pearson<br>
+                            Peter Cameron<br><br>
+                            *Based on<br><br>
+                            Fantastic Four
+                            by Stan Lee<br>
+                            Jack Kirby<br><br>
+                            *Produced by <br><br>
+                            Kevin Feige<br><br>
+                            *Starring<br><br>
+                            Pedro Pascal<br>
+                            Vanessa Kirby<br>
+                            Joseph Quinn<br>
+                            Ebon Moss-Bachrach<br>
+                            Ralph Ineson<br>
+                            Julia Garner<br>
+                            Paul Walter Hauser<br>
+                            John Malkovich<br>
+                            Natasha Lyonne<br>
+                            Sarah Niles<br><br>
+                            *Cinematography <br><br>
+                            Jess Hall<br><br>
+                            *Music by <br><br>
+                            Michael Giacchino<br><br>
+                            *Production company<br><br>
+                            Marvel Studios<br><br>
+                            *Distributed by<br><br>
+                            Walt Disney Studios<br>
+                            Motion Pictures
+                        <div class="divider"></div>
+                        </p>
+
+                        <p id="text_color" class="yellow-text">
+                            Fantastic Four: First Steps is scheduled to be released in the United States on July 25,
+                            2025. <br>
+
+                        </p>
+                    </div>
+                    <!-- explain-->
+                    <div class="col s12 m5 l6 xl8 center cast_container">
+                        <h1 id="text_color-explain" style="font-size: 60px;">Fantastic Four:First Steps</h1>
+                        <div class="divider"></div>
+                        <h3 id="text_color-explain">Synopsis</h3>
+                        <p id="text_color-explain" class="movie_explain">
+                            The Fantastic Four: First Steps (stylized as The Fantastic 4: First Steps) is an upcoming
+                            American superhero film based on the Marvel Comics superhero team the Fantastic Four.
+                            Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is
+                            intended to be the 37th film in the Marvel Cinematic Universe (MCU) and the second reboot of
+                            the Fantastic Four film series. The film is being directed by Matt Shakman from a screenplay
+                            by the writing team of Jeff Kaplan and Ian Springer, Josh Friedman, Cameron Squires, Eric
+                            Pearson, and Peter Cameron. It features an ensemble cast including Pedro Pascal, Vanessa
+                            Kirby, Joseph Quinn, and Ebon Moss-Bachrach as the titular team, alongside Ralph Ineson,
+                            Julia Garner, Paul Walter Hauser, John Malkovich, Natasha Lyonne, and Sarah Niles. In the
+                            film, the Fantastic Four must protect their Earth, a 1960s-inspired retro-futuristic world,
+                            from being devoured by the cosmic being Galactus. <br><br>
+
+                            20th Century Fox began work on a new Fantastic Four film after the failure of Fantastic Four
+                            (2015). After the studio was acquired by Disney in March 2019, control of the franchise was
+                            transferred to Marvel Studios, and a new film was announced that July. Jon Watts was set as
+                            director in December 2020, but stepped down in April 2022. Shakman replaced him that
+                            September when Kaplan and Springer were working on the script. Casting was underway by early
+                            2023, and Friedman joined to rewrite the script by that March, with Squires and Cameron also
+                            writing. Marvel Studios wanted to tell a new story with the characters rather than retell
+                            their origin story. Pearson joined to polish the script by mid-February 2024, when the main
+                            cast was announced, and additional casting took place in the following months. Filming began
+                            in late July 2024 at Pinewood Studios in London. Additional filming took place in Oviedo,
+                            Spain, and will wrap at the end of November.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slideshow Explanation for Movie 4 -->
+            <div class="mySlides fade row valign-wrapper slider_container">
+                <div class="row">
+                    <!-- cast-->
+                    <div class="col s12 m5 l6 xl3 center cast_container">
+                        <img class="body_img responsive-img" src="Design/Main_design/thunderbolt1.jpg" alt="">
+                        <a href="#movie4" class=" modal-trigger waves-effect waves-light btn-large"><i
+                                class="material-icons left">play_circle_filled</i>Watch Trailer</a>
+
+                        <!-----Cast---->
+                        <p id="text_color-cast">
+                            *Directed by <br><br>
+                            Jake Schreier<br><br>
+                            *Written by<br><br>
+                            Eric Pearson<br>
+                            Lee Sung Jin<br>
+                            Joanna Calo<br><br>
+                            *Based on<br><br>
+                            Thunderbolts<br>
+                            by Kurt Busiek<br>
+                            Mark Bagley<br><br>
+                            *Produced by<br><br>
+                            Kevin Feige<br><br>
+                            *Starring<br><br>
+                            Florence Pugh<br>
+                            Sebastian Stan<br>
+                            David Harbour<br>
+                            Wyatt Russell<br>
+                            Olga Kurylenko<br>
+                            Lewis Pullman<br>
+                            Geraldine Viswanathan<br>
+                            Chris Bauer<br>
+                            Wendell Edward Pierce<br>
+                            Hannah John-Kamen<br>
+                            Julia Louis-Dreyfus<br><br>
+                            *Cinematography<br><br>
+                            Andrew Droz Palermo<br><br>
+                            *Edited by<br><br>
+                            Harry Yoon<br>
+                            Angela M. Catanzaro<br><br>
+                            *Production
+                            company<br><br>
+                            Marvel Studios<br><br>
+                            *Distributed by<br><br>
+                            Walt Disney Studios<br>
+                            Motion Pictures
+                        <div class="divider"></div>
+                        </p>
+
+                        <p id="text_color" class="yellow-text">
+                            Thunderbolts is scheduled to be released in the United States on May 2, 2025.
+
+                        </p>
+                    </div>
+                    <!-- explain-->
+                    <div class="col s12 m5 l6 xl8 center cast_container">
+                        <h1 id="text_color-explain" style="font-size: 60px;">Thunderbolts</h1>
+                        <div class="divider"></div>
+                        <h3 id="text_color-explain">Synopsis</h3>
+                        <p id="text_color-explain" class="movie_explain">
+                            Thunderbolts* is an upcoming American superhero film based on the Marvel Comics team
+                            Thunderbolts. Produced by Marvel Studios and distributed by Walt Disney Studios Motion
+                            Pictures, it is intended to be the 36th film in the Marvel Cinematic Universe (MCU). The
+                            film is directed by Jake Schreier and written by Eric Pearson, Lee Sung Jin, and Joanna
+                            Calo. It stars an ensemble cast featuring Florence Pugh, Sebastian Stan, David Harbour,
+                            Wyatt Russell, Olga Kurylenko, Lewis Pullman, Geraldine Viswanathan, Chris Bauer, Wendell
+                            Edward Pierce, Hannah John-Kamen, and Julia Louis-Dreyfus. In the film, a group of
+                            antiheroes goes on missions for the government. <br><br>
+
+                            Marvel Studios began teasing the formation of a Thunderbolts team within the MCU in 2021.
+                            The film was revealed to be in development in June 2022, when Schreier and Pearson were
+                            attached. The film's main cast members were revealed that September, followed by additional
+                            casting through early 2023. Lee joined to rewrite the film's script by March 2023, one of
+                            several creatives who returned to work with Schreier from the Netflix series Beef (2023).
+                            Production was delayed due to the 2023 Hollywood labor disputes, causing some actors to
+                            leave the project and be replaced in early 2024, when Calo joined. Filming took place from
+                            February to June 2024 at Trilith Studios and Atlanta Metro Studios in Atlanta, Georgia, with
+                            additional filming in Utah.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="divider"></div>
+    <footer class="page-footer transparent">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <div class="row valign-wrapper" style="padding-left: 15%;">
+                        <ul class="right menu_button_container_reg">
+                            <li>
+                                <h5>Follow us on social media</h5>
+                            </li><br>
+                            <li><a class="waves-effect blue-text btn_reg"
+                                    href="https://www.facebook.com/cristopher.espina.92"><i
+                                        class="small fa-brands fa-square-facebook"></i><span> Facebook</span></a></li>
+                            <li><a class="waves-effect white-text btn_reg" href="https://vt.tiktok.com/ZSeca2NTY/"><i
+                                        class="small responsive-img fa-brands fa-tiktok"></i><span> Tiktok</span></a>
+                            </li>
+                            <li><a class="waves-effect red-text btn_reg" href="https://www.youtube.com/@Naruto02418"><i
+                                        class="small fa-brands fa-youtube"></i><span> Youtube</span></a></li>
+                            <li><a class="waves-effect btn_reg" href=""><i 
+                                        class="small fa-brands fa-square-instagram Instagram_color"></i><span class="Instagram_color"> Instagram</span></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col l4 offset-l2 s12" style="padding-left: 15%;">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="waves-effect white-text btn_reg" href="index.html">HOME</a></li>
+                        <li><a class="waves-effect white-text btn_reg" href="Movies.html">MOVIES</a></li>
+                        <li><a class="waves-effect white-text btn_reg" href="About.html">ABOUT</a></li>
+                        <li><a class="waves-effect white-text btn_reg" href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-copyright">
+            <div class="container">
+                <a class="waves-effect white-text" style="padding-left: 35%;" href=""><span>© 2024 Cristopher P.
+                        Espina</span></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+    </div>
+
+    <!-- Jquery CDN-->
+    <script type="text/JavaScript" src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+
+
+    <!-- Javascript Slideshow -->
+
+    <script type="text/JavaScript">
+        $(document).ready(function () {
+            $('.slider').slider({
+                duration: 1000, // Duration in milliseconds
+                height : 700, 
+            });
+        });
+
+
+        $(document).ready(function(){
+            $('.modal').modal();
+            // To open the modal
+           var instance = M.Modal.getInstance(document.getElementById('movie1'));
+           instance.open();
+
+              // To close the modal
+                instance.close();
+
+        });
+
+        // Get the modal
+        //var modal = document.getElementById('movie1');
+
+        // When the user clicks anywhere outside of the modal, close it
+        //window.onclick = function(event) {
+        // if (event.target == modal) {
+        //    modal.style.display = "none";
+        //}
+       // }
+
+        $(document).ready(function(){
+             $('.sidenav').sidenav();
+        });
+
+
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+
+  
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

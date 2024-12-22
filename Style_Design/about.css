@@ -1,0 +1,28 @@
+* {
+    background-color: transparent;
+  }
+  
+  body {
+    background-color: black;
+  }
+
+  .img-about{
+    position: relative;
+    padding-left: 5%;
+    padding-top: 8%;
+    background-color: transparent;
+  }
+
+  .name{
+    font-size: 1.1vw;
+    line-height: 0%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .about-name{
+    position: relative;
+    font-size: 1rem;
+    margin-top: 5%;
+    margin-left: 5%;
+  }

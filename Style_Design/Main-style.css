@@ -1,0 +1,603 @@
+* {
+  background-color: transparent;
+}
+
+body {
+  background-color: black;
+}
+
+.nav_container .menu_container {
+  background-color: black;
+  height: 13rem;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  right: 0%;
+
+}
+
+.logo_Container {
+  background-color: transparent;
+  padding-top: 1%;
+
+}
+
+.menu_container {
+  padding: 5px 0px 0px 20px;
+  width: 100%;
+
+}
+
+.img_logo {
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  padding-top: 3rem;
+  margin-left: 7%;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  color: yellow;
+  text-shadow: 0 0 17px rgb(138, 211, 253);
+  padding-top: 5rem;
+  margin-left: .1rem;
+}
+
+.menu_icon {
+  align-items: left center;
+  margin: 0%;
+  margin-bottom: 2%;
+  background-color: transparent;
+  position: relative;
+
+}
+
+
+
+.menu_button_container_reg{
+  margin-right: 20px;
+
+}
+
+.btn_reg {
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: small;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0.2rem 0.5rem;
+  transition: color 0.25s;
+}
+
+.btn::after,
+.reg_menu_icon::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: transparent;
+  scale: 1 0;
+  z-index: -1;
+  transition: 0.45s;
+  border-radius: 10px;
+}
+
+.btn_reg:hover,
+.reg_menu_icon:hover{
+  color: lime;
+  background: transparent;
+  text-shadow: 0 0 5px transparent;
+  font-size: large;
+  height: fixed;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.btn_reg:hover::after,
+.reg_menu_icon:hover::after {
+  scale: 1 1;
+}
+
+/*Home, Movies, About, Contact*/
+.menu_button_container {
+  padding-top: 7rem;
+  padding-left: 20rem;
+  background-color: transparent;
+  margin-right: 0px;
+}
+
+.btn {
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0.1rem 0.5rem;
+  transition: color 0.25s;
+  text-shadow: 0 0 5px red;
+  top: 0%;
+
+}
+
+.li_btn{
+  width: fit-content;
+
+}
+
+.btn::after,
+.menu_icon::after, .li_btn::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: transparent;
+  scale: 1 0;
+  z-index: -1;
+  transition: 0.45s;
+  border-radius: 10px;
+}
+
+.btn:hover,
+.menu_icon:hover {
+  color: yellow;
+  background: transparent;
+  text-shadow: 0 0 5px transparent;
+  font-size: 1.3vw;
+  height: fixed;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.btn:hover::after,
+.menu_icon:hover::after {
+  scale: 1 1;
+  background: transparent;
+}
+
+
+
+/*SIDEVAR  CSS*/
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.side_name_logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: yellow;
+  margin-left: 10%;
+
+}
+
+.side_menu_container{
+  margin-left: 50px;
+  margin-top: 10%;
+}
+
+.side_btn_menu {
+  margin-left: 5px;
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+.btn_side {
+  color: white;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: color 0.25s;
+  text-shadow: 0 0 5px red;
+
+
+}
+
+
+.btn_side::after,
+.menu_icon::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: transparent;
+  scale: 1 0;
+  z-index: -1;
+  transition: 0.45s;
+  border-radius: 10px;
+}
+
+.btn_side:hover,
+.menu_icon:hover {
+  color: yellow;
+  background: transparent;
+  text-shadow: 0 0 5px transparent;
+  font-size: 35px;
+  height: fixed;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.btn_side:hover::after,
+.menu_icon:hover::after {
+  scale: 1 1;
+  background: transparent;
+}
+
+
+
+
+
+
+/*image slider CSS*/
+
+
+.screen_movie_title {
+  font-size: 5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: yellow;
+  text-transform: uppercase;
+  text-shadow: 5px 5px #050505;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.card-panel_slide {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  background-color: transparent;
+  height: 400px;
+  width: 100%;
+  margin: 0%;
+  margin-left: 0%;
+  transition: .1s;
+}
+
+.img_slider_bg {
+  filter: blur(4px);
+}
+
+
+
+.img_title{
+ height:100%;
+ width: 300px;
+ image-rendering: auto;
+}
+
+.title-container{
+  background-color: transparent;
+}
+
+.movie_title {
+  font-family: Stencil Std, fantasy;
+  font-weight: bold;
+  font-size: 45PX;
+  border: solid;
+  border: 50px;
+  border-color: rgb(5, 5, 5);
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: none;
+  color: whitesmoke;
+  text-shadow: 0 0 3px rgb(7, 1, 1);
+  margin: 0%;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.date_relase {
+
+  font-style: italic;
+  font-size: 20PX;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: left;
+  margin: 0%;
+  margin-left: 10px;
+}
+
+.image_title {
+  object-fit: cover;
+}
+
+.btn_watch {
+  left: 1%;
+}
+
+.btn_watch:hover {
+  color: black;
+  background-color: lightcyan;
+}
+
+/*Watch Trailer Modal CSS*/
+.movie_modal {
+  height: 600px;
+  width: 55%;
+  border-radius: 10%;
+  border-color: none;
+  border-style: none;
+  border-width: 0%;
+  background-color: transparent;
+  
+}
+
+.modal-close_btn{
+  background-color: transparent;
+  font-weight: bold;
+  position: relative;
+  padding-left: 13%;
+  padding-top: 1%;
+
+}
+.modal_icon{
+  font-size: 100px;
+  font-weight: bold;
+}.modal_icon:hover{
+  color: red;
+}
+
+.modal_head_title {
+  font-family: Stencil Std, fantasy;
+  font-size: 1.5vw;
+  border: solid;
+  border: 50px;
+  border-color: rgb(5, 5, 5);
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color:rgb(252, 253, 252);
+  position: relative;
+ padding-left: 35%;
+ padding-top: 9%;
+
+  
+}
+
+.vid_trailer {
+  width: 80%;
+  height: 30%;
+  border-color: lightblue;
+  border-width: 10px;
+  border-style: outset;
+  border-radius: 1.5vw;
+  margin-left: 50px;
+
+}
+
+.btn_close_modal{
+  color: aliceblue;
+  background-color: transparent;
+  text-align: center;
+  line-height: 0%;
+  font-weight: bold;
+ 
+}
+
+.btn_close_modal:hover{
+  color: red;
+  background-color: transparent;
+}
+
+
+/*Body Container*/
+
+.body_container{
+  background-color:  black;
+  height: 100%;
+
+  border-top-color: white;
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+
+.slider_container{
+  height: 100%;
+  width: 97.5%;
+  background-color: black;
+  margin-top: 5px;
+
+}
+
+
+.nav_body_container{
+  background-color: rgb(247, 243, 243);
+  height: 100%;
+  width: 100%;
+  margin-left: 50px;
+  position: relative;
+ align-content: center;
+ align-self: center;
+ align-items: center;
+
+
+
+}
+
+.body_img_container{
+  background-color:rgb(155, 41, 41);
+  width:360px;
+  height: 100%;
+  top: 0%;
+  margin-right: 50%;
+  position:relative;
+  border-right-style: solid;
+  border-right-color: rgb(252, 252, 255);
+  border-right-width: 2px;
+
+}
+
+.body_img{
+  position: relative;
+  margin: 0%;
+  border-color:  black;
+  border-width: 2px;
+  border-style: solid;
+  height: 500px;
+  width: 350px;
+  background-color: transparent;
+  
+}
+
+
+.body_cast_container{
+  height: 100%;
+  align-items: baseline;
+  position: relative;
+  text-align: center;
+   
+}
+
+.cast_container{
+  position: relative;
+  height: 100%;
+  width: 350px;
+  background-color: transparent;
+}
+
+#text_color-cast {
+  color: white;
+  font-size: large;
+  line-height: normal;
+  text-align: left;
+  padding-left: 20%;
+  
+}
+
+#text_color-explain {
+  color: white;
+  font-size: large;
+  line-height: normal;
+  text-align: left;
+  padding-left: 0%;
+  
+}
+
+
+.btn-large{
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(253, 255, 253);
+  color: #050505;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.25s;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.btn-large:hover {
+  background-color: greenyellow;
+  color: red;
+}
+
+
+.movie_explain_container{
+  background-color: black;
+  height: 100%;
+  position: absolute;
+  margin-left: 364px;
+  padding-left:inherit;
+  width: 74%;
+  top: 0%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Next & previous buttons */
+
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 1700px;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(199, 5, 5);
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: aliceblue;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(233, 191, 191, 0.8);
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+
+
+.Instagram_color {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+

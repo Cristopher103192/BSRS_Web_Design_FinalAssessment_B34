@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Font Icons CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="Style_Design/Movies.css">
+  <link rel="stylesheet" href="Style_Design/Main-style.css">
+  <title>Movies</title>
+</head>
+
+<body>
+  <!-- Header Logo and Menu Style -->
+
+  <div class="navbar-fixed nav_container">
+    <nav class="nav-wrapper navbar-fixed  menu_container">
+      <!-- Register and Login Style -->
+      <div class="row valign-wrapper right">
+        <ul class="right menu_button_container_reg">
+          <li><a class="waves-effect btn_reg" href="#!"><i
+                class="small material-icons left reg_menu_icon">person</i>register</a></li>
+          <li><a class="waves-effect btn_reg" href="#!"><i
+                class="small material-icons left reg_menu_icon">lock</i>Login</a></li>
+        </ul>
+      </div>
+      <!-- Logo Style -->
+      <nav class="row valign-wrapper center hide-on-med-and-down logo_Container">
+        <img class="responsive-img img_logo" src="Design/OIP.jpg" alt="">
+
+        <span class="logo hide-on-med-and-down">MOVIE
+          MARATHON</span>
+      </nav>
+      <!-- Menu Button Style -->
+      <div class="right hide-on-med-and-down">
+        <ul class="menu_button_container">
+          <li class="li_btn"><a class="btn" href="index.html"><i
+                class="small material-icons left menu_icon">home</i>HOME</a>
+          </li>
+          <li class="li_btn"><a class="btn" href="Movies.html"><i
+                class="small material-icons left menu_icon">camera_roll</i>MOVIES</a>
+          </li>
+          <li class="li_btn"><a class="btn" href="About.html"><i
+                class="small material-icons left menu_icon">perm_identity</i>ABOUT</a>
+          </li>
+          <li class="li_btn"><a class="btn" href="Contact.html"><i
+                class="small material-icons left menu_icon">local_phone</i>CONTACT</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Sidevar Trigger -->
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"
+          style="font-size: 5vw;">menu</i></a>
+    </nav>
+  </div>
+
+  <!-- Sidevar Logo and Menu Style -->
+  <div id="slide-out" class="sidenav">
+    <img class="circle" src="Design/OIP.jpg" style="height: 100px; width: 100px; margin-left: 80px;"><br>
+    <span class="side_name_logo">MOVIE MARATHON</span>
+    <div class="divider"></div>
+    <div class="side_menu_container ">
+      <ul>
+        <li><span id="home" class="side_btn_menu"><a class="btn_side" href="index.html"><i
+                class="small material-icons left menu_icon" style="padding-top: 3.8%;">home</i>HOME</a></span>
+        </li>
+        <li><span class="side_btn_menu"><a class="btn_side" href="Movies.html"><i
+                class="small material-icons left menu_icon" style="padding-top: 3.8%;">camera_roll</i>MOVIES</a></span>
+        </li>
+        <li><span class="side_btn_menu"><a class="btn_side" href="About.html"><i
+                class="small material-icons left menu_icon" style="padding-top: 3.8%;">perm_identity</i>ABOUT</a></span>
+        </li>
+        <li><span class="side_btn_menu"><a class="btn_side" href="Contact.html"><i
+                class="small material-icons left menu_icon" style="padding-top: 3.8%;">local_phone</i>CONTACT</a></span>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+
+
+  <br> <br><br><br><br>
+  <p class="title_movie">Action Movies</p>
+  <div class="movieSliderContainer">
+    <div class="MovieSlider">
+
+      <!-- Modal Movie 1 -->
+      <div class="MovieSlide">
+        <img src="Design/Action_Movies/Fist2Fist2.jpg" alt="Fist 2 Fist 2: Weapon Of Choice">
+        <div class="MovieInfo modal-trigger" href="#movie1">
+          <h5>Fist 2 Fist 2: Weapon Of Choice</h5>
+        </div>
+      </div>
+      <div id="movie1" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/yaatflQXELY"
+            title="He Must Kill To Save His Family | Fist 2 Fist 2: Weapon Of Choice | Full Movie | Action Crime"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie  2 -->
+      <div class="MovieSlide">
+        <img src="Design/Action_Movies/thetourist.jpg" alt="The Tourist: Russian Special Forces in Central Africa">
+        <div class="MovieInfo modal-trigger" href="#movie2">
+          <h5>The Tourist: Russian Special Forces in Central Africa</h5>
+        </div>
+      </div>
+      <div id="movie2" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/N2w-ZOKGvco"
+            title="The Tourist: Russian Special Forces in Central Africa - A Gripping Action Thriller" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie 3 -->
+      <div class="MovieSlide">
+        <img src="Design/Action_Movies/thefinalblade.jpg" alt="The Final Blade">
+        <div class="MovieInfo modal-trigger" href="#movie3">
+          <h5>The Final Blade</h5>
+        </div>
+      </div>
+      <div id="movie3" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/8o7GI8SgCFk"
+            title="The Final Blade - English | Martial Arts &amp; Kung Fu Action Movie, Full Movie HD" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie 4 -->
+      <div class="MovieSlide">
+        <img src="Design/Action_Movies/deadlyclosure.jpg" alt="Deadly Closure">
+        <div class="MovieInfo modal-trigger" href="#movie4">
+          <h5>Deadly Closure</h5>
+        </div>
+      </div>
+      <div id="movie4" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/5pLuji8k43I"
+            title="ARMED &amp; DEADLY | Full REVENGE ACTION Movie HD" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie  5 -->
+      <div class="MovieSlide">
+        <img src="Design/Action_Movies/ladyofheaven.jpg" alt="The Lady of Heaven">
+        <div class="MovieInfo modal-trigger" href="#movie5">
+          <h5>The Lady of Heaven</h5>
+        </div>
+      </div>
+      <div id="movie5" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/bc9q__VbYL4"
+            title="The Lady of Heaven | Best Action Drama Movie In English | Full HD" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+      <!-- Modal Movie 6 -->
+      <div class="MovieSlide">
+        <img src="Design/Action_Movies/mayday.jpg" alt="Operation Delta Force 2 : MAYDAY">
+        <div class="MovieInfo modal-trigger" href="#movie6">
+          <h5>Operation Delta Force 2 : MAYDAY</h5>
+        </div>
+      </div>
+      <div id="movie6" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/6Kab9DM9dtQ"
+            title="Operation Delta Force 2 | Full Classic Action Movie | Retro Central" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="title_movie">Tagalog Romance Drama</p>
+
+  <div class="movieSliderContainer">
+    <div class="MovieSlider">
+
+      <!-- Modal Movie 7 -->
+      <div class="MovieSlide">
+        <img src="Design/Romance/between.jpg" alt="Between Maybes">
+        <div class="MovieInfo modal-trigger" href="#movie7">
+          <h5>Between Maybes</h5>
+        </div>
+      </div>
+      <div id="movie7" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/vseiOQL4UDM?list=PLalQNACgOUSeSM9JJQb_FlhJQ8HkNmVwY"
+            title="&#39;Between Maybes&#39; FULL MOVIE | Tagalog Romance Drama | Julia Barretto, Gerald Anderson"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie  8 -->
+      <div class="MovieSlide">
+        <img src="Design/Romance/brideforrent.jpg" alt="Bride for Rent">
+        <div class="MovieInfo modal-trigger" href="#movie8">
+          <h5>Bride for Rent</h5>
+        </div>
+      </div>
+      <div id="movie8" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/Unv9dyEqZuU?list=PLalQNACgOUSeSM9JJQb_FlhJQ8HkNmVwY"
+            title="‘Bride for Rent’ FULL MOVIE | Kim Chiu, Xian Lim | Tagalog &amp; Spanish-dubbed (with English subtitles)"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie 9 -->
+      <div class="MovieSlide">
+        <img src="Design/Romance/unofficialyours.jpg" alt="Unofficially Yours">
+        <div class="MovieInfo modal-trigger" href="#movie9">
+          <h5>Unofficially Yours</h5>
+        </div>
+      </div>
+      <div id="movie9" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/enbNM_KEfWc?list=PLalQNACgOUSeSM9JJQb_FlhJQ8HkNmVwY"
+            title="&#39;Unofficially Yours&#39; FULL MOVIE | Tagalog Romance Drama | Angel Locsin, John Lloyd Cruz"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie 10 -->
+      <div class="MovieSlide">
+        <img src="Design/Romance/SinIsland.jpg" alt="Sin Island">
+        <div class="MovieInfo modal-trigger" href="#movie10">
+          <h5>Sin Island</h5>
+        </div>
+      </div>
+      <div id="movie10" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/XmEbGRBkgeI?list=PLalQNACgOUSeSM9JJQb_FlhJQ8HkNmVwY"
+            title="&#39;Sin Island&#39; FULL MOVIE | Tagalog Romance Drama | Coleen Garcia, Xian Lim" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie  11 -->
+      <div class="MovieSlide">
+        <img src="Design/Romance/iloveyougoodbye.jpg" alt="I Love You, Goodbye">
+        <div class="MovieInfo modal-trigger" href="#movie11">
+          <h5>I Love You, Goodbye</h5>
+        </div>
+      </div>
+      <div id="movie11" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/8S1Bev4fEHk?list=PLalQNACgOUSeSM9JJQb_FlhJQ8HkNmVwY"
+            title="‘I Love You, Goodbye’ FULL MOVIE | Gabby Concepcion, Angelica Panganiban, Kim Chiu" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+      <!-- Modal Movie 12 -->
+      <div class="MovieSlide">
+        <img src="Design/Romance/yourmyboss.jpg" alt="You’re My Boss">
+        <div class="MovieInfo modal-trigger" href="#movie12">
+          <h5>You’re My Boss</h5>
+        </div>
+      </div>
+      <div id="movie12" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/R0GvD_YgHw4?list=PLalQNACgOUSeSM9JJQb_FlhJQ8HkNmVwY"
+            title="‘You’re My Boss’ FULL MOVIE | Coco M., Toni G. | Tagalog &amp; Spanish-dubbed (with English subtitles)"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="title_movie">Horror Movies</p>
+
+
+  <div class="movieSliderContainer">
+    <div class="MovieSlider">
+
+      <!-- Modal Movie 13 -->
+      <div class="MovieSlide">
+        <img src="Design/Horror/evillittlethings.jpg" alt="Evil Little Things">
+        <div class="MovieInfo modal-trigger" href="#movie13">
+          <h5>Evil Little Things</h5>
+        </div>
+      </div>
+      <div id="movie13" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/4KSarnKmyMk"
+            title="These Dolls Are Evil | Evil Little Things | Horror Movie Full Movie | Halloween Horror Movie"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie  14 -->
+      <div class="MovieSlide">
+        <img src="Design/Horror/thetrip.jpg" alt="THE TRIP">
+        <div class="MovieInfo modal-trigger" href="#movie14">
+          <h5>THE TRIP</h5>
+        </div>
+      </div>
+      <div id="movie14" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/cbqHeuWV8e8"
+            title="THE TRIP 🎬 Full Exclusive Horror Movie Premiere 🎬 English HD 2024" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie 15 -->
+      <div class="MovieSlide">
+        <img src="Design/Horror/thechildremains.jpg" alt="The Child Remains">
+        <div class="MovieInfo modal-trigger" href="#movie15">
+          <h5>The Child Remains</h5>
+        </div>
+      </div>
+      <div id="movie15" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/vEHmjci2llE"
+            title="Uncover the Dark Secrets | The Child Remains | Thriller Horror Movie | Free Movie" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie 16 -->
+      <div class="MovieSlide">
+        <img src="Design/Horror/aswang.jpg" alt="ASWANG">
+        <div class="MovieInfo modal-trigger" href="#movie16">
+          <h5>ASWANG</h5>
+        </div>
+      </div>
+      <div id="movie16" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/7l4FD3epYTg"
+            title="ASWANG: Lovi Poe, Paulo Avelino, Jillian Ward, Albie Casino, Lara Quigaman |  Full Movie"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Modal Movie  17 -->
+      <div class="MovieSlide">
+        <img src="Design/Horror/huntedprison.jpg" alt="HAUNTED PRISON">
+        <div class="MovieInfo modal-trigger" href="#movie17">
+          <h5>HAUNTED PRISON</h5>
+        </div>
+      </div>
+      <div id="movie17" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/nv8T1dEzfx8"
+            title="HAUNTED PRISON | Full Horror Movie" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+      <!-- Modal Movie 18 -->
+      <div class="MovieSlide">
+        <img src="Design/Horror/lakeartifacts.jpg" alt="Paradox Lake 1953">
+        <div class="MovieInfo modal-trigger" href="#movie18">
+          <h5>Paradox Lake 1953</h5>
+        </div>
+      </div>
+      <div id="movie18" class="modal movies_modal">
+        <div class="modal-content center">
+
+          <iframe class="Movies" src="https://www.youtube.com/embed/i5uPbLjWhkM"
+            title="LAKE ARTIFACT 🎬 Full Exclusive Thriller Horror Movie Premiere 🎬 English HD 2024" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Jquery CDN-->
+  <script type="text/JavaScript" src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Javascript Slideshow -->
+
+  <script type="text/JavaScript">
+      $(document).ready(function () {
+          $('.slider').slider({
+              duration: 1000, // Duration in milliseconds
+              height : 700, 
+          });
+      });
+
+
+      $(document).ready(function(){
+          $('.modal').modal();
+          // To open the modal
+         var instance = M.Modal.getInstance(document.getElementById('movie1'));
+         instance.open();
+
+            // To close the modal
+              instance.close();
+
+      });
+
+      // Get the modal
+      //var modal = document.getElementById('movie1');
+
+      // When the user clicks anywhere outside of the modal, close it
+      //window.onclick = function(event) {
+      // if (event.target == modal) {
+      //    modal.style.display = "none";
+      //}
+     // }
+
+      $(document).ready(function(){
+           $('.sidenav').sidenav();
+      });
+
+
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+          showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+          showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+      }
+
+
+
+
+  </script>
+
+</body>
+
+</html>
